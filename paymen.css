@@ -1,0 +1,158 @@
+:root {
+ --blue :#2C2546;
+ --dark-blue :#181535;
+ --green :aqua;
+ --white :white
+}
+* {
+  margin: 2px;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border.box;
+  font-family: Tahoma;
+}
+body {
+  background-color: #181535 ;
+  color: white;
+}
+
+header {
+
+  position: fixed;
+  width: 100%;
+  font-weight:bold ;
+  justify-content:center;
+  text-align: center;
+  background-color:#2C2546;
+  padding: 2%;
+  top: 0;
+  font-size: 80px;
+}
+
+.title {
+  color: aqua;
+  border-bottom:1px solid white;
+}
+
+.input-search{
+  width: 70%;
+  border: none;
+  border-radius: 0 10px 0 10px;
+  padding: 2px;
+  font-size: 30px;
+  
+}
+
+.input-sumbit{
+  margin-left: 5px;
+  border: none;
+  border-radius: 0 10px 0 0;
+  padding: 15px;
+  background-color: aqua;
+  color:#2C2546;
+  width: 10%;
+  margin-top: 15px;
+  font-size: 20px;
+}
+bar {
+  margin-top: 15px;
+}
+
+bar ul {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+
+}
+bar ul li a:hover {
+  border-buttom: 4px solid white
+  
+}
+bar ul li a{
+  color: white;
+  font-size: 50px;
+}
+
+.c{
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: aqua;
+  color: white;
+  width: 10%;
+  
+}
+
+.sc{
+  color: aqua;
+}
+
+.banner a img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.slider {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  width: 110%;
+  height: 100%;
+}
+
+.show {
+  display: block !important;
+}
+
+.kesatu{
+  width: 90%;
+  border-radius: 30px;
+}
+
+.kedua{
+  width: 90%;
+}
+
+.ketiga{
+  width: 100%;
+}
+
+p{
+  font-size: 50px;
+}
+
+h1{
+  font-size: 100px;
+}
+
+teks{
+  font-size: 80px;
+}
+
+.text{
+  width: 80%;
+  padding: 10px;
+  font-size: 100px;
+}
+
+pp{
+  font-size: 80px;
+}
+
+.check{
+  width: 70px;
+  height: 70px;
+}
+
+.sumbit{
+  width: 180px;
+  height: 90px;
+  font-size: 60px;
+  margin-left: 1150px;
+}
